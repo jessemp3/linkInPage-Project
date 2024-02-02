@@ -143,12 +143,18 @@ footer > p {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
-    width: 400px;
-    height: 926px;
+    width: 428px;
+    /* height: 926px; */
     background: #6e6662;
-    margin: 0 auto;
-    overflow-x: hidden;
+    /* margin: 0 auto; */
+    /* overflow-x: hidden; */
   }
+
+  .principal-div{
+      margin: 0 auto;
+      overflow-x: hidden;
+  }
+
   #primary-image {
     margin: 47px 152px 0 135px;
     width: 141px;
@@ -186,8 +192,9 @@ footer > p {
   #description {
     color: #000;
     font-family: Cambria;
-    font-size: 0.75rem;
+    font-size: 0.60rem;
     margin-top: 3.37px;
+    white-space: normal;
 }
   
   button > a {
@@ -195,7 +202,7 @@ footer > p {
     color: #fff;
   }
   .principal {
-    margin: 0 42px 0 39px;
+    /* margin: 0 39px 0 42px; */
     padding: 56px 35px 55px 36px;
     width: 347px;
     height: 460px;
