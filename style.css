@@ -18,6 +18,10 @@ body {
   background-size: cover;
   border-radius: 50%;
 }
+
+#apresentation{
+  white-space:nowrap;
+}
 h1 {
   margin: 0 146px 0 140px;
   color: #000;
@@ -153,6 +157,11 @@ footer > p {
     background-size: cover;
     border-radius: 50%;
   }
+
+  #apresentation{
+      white-space:nowrap;
+  }
+
   h1 {
     margin: 0 146px 0 140px;
     color: #000;
@@ -270,5 +279,3 @@ footer > p {
     padding-bottom: 9px;
   }
 }
-
-
