@@ -184,8 +184,12 @@ footer > p {
     stroke: #000;
   }
   #description {
-    display: none;
-  }
+    color: #000;
+    font-family: Cambria;
+    font-size: 0.75rem;
+    margin-top: 3.37px;
+}
+  
   button > a {
     text-decoration: none;
     color: #fff;
