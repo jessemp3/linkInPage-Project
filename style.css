@@ -8,6 +8,7 @@ body {
   height: 926px;
   background: #6e6662;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 #primary-image {
   margin: 47px 152px 0 135px;
@@ -138,7 +139,7 @@ footer > p {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body {
-    width: 428px;
+    width: 400px;
     height: 926px;
     background: #6e6662;
     margin: 0 auto;
